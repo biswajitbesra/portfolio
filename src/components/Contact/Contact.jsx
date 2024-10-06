@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom'
 
 function Contact() {
     return (
@@ -19,13 +20,13 @@ function Contact() {
                         <div>
                             <FontAwesomeIcon style={{ fontSize: "35px" }} icon={faEnvelope} />
                         </div>
-                        <span className='text-sm'>biswajitbesra28@gmail.com</span>
+                        <Link target='_blank' className='text-sm' to='mailto:biswajitbesra28@gmail.com'>biswajitbesra28@gmail.com</Link>
                     </div>
                     <div className='h-36 w-64 border border-slate-500 rounded-lg flex flex-col justify-center items-center gap-2 p-3'>
                         <div>
                             <FontAwesomeIcon style={{ fontSize: "35px" }} icon={faLinkedin} />
                         </div>
-                        <a className='text-sm break-words' style={{ wordBreak: 'break-word' }} href='https://www.linkedin.com/in/biswajit-besra-0b471a315/'>https://www.linkedin.com/in/biswajit-besra-0b471a315/</a>
+                        <Link target='_blank' className='text-sm break-words' style={{ wordBreak: 'break-word' }} to='https://www.linkedin.com/in/biswajit-besra-0b471a315/'>https://www.linkedin.com/in/biswajit-besra-0b471a315/</Link>
                     </div>
                 </div>
             </div>

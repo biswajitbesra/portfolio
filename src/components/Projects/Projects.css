@@ -10,7 +10,7 @@
     border-radius: 50px;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background-color: red;
+    background-color: #ffb100;
 }
 .my-css a{
     position: absolute;

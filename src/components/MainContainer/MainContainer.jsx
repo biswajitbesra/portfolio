@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLocationDot, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import ProfilePicture from '../../assets/Untitled design.png'
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 
 function MainContainer() {
     return (
@@ -16,15 +16,15 @@ function MainContainer() {
                     Biswajit Besra
                 </h1>
                 <div className='flex gap-3 mb-3'>
-                    <a target='_blank' href="https://www.linkedin.com/in/biswajit-besra-0b471a315/">
+                    <Link target='_blank' to="https://www.linkedin.com/in/biswajit-besra-0b471a315/">
                         <FontAwesomeIcon className='hover:cursor-pointer' style={{ fontSize: "25px" }} icon={faLinkedin} />
-                    </a>
-                    <a target='_blank' href="https://github.com/biswajitbesra">
+                    </Link>
+                    <Link target='_blank' to="https://github.com/biswajitbesra">
                         <FontAwesomeIcon className='hover:cursor-pointer' style={{ fontSize: "25px" }} icon={faGithub} />
-                    </a>
-                    <a target='_blank' href="mailto:biswajitbesra28@gmail.com">
+                    </Link>
+                    <Link target='_blank' to="mailto:biswajitbesra28@gmail.com">
                         <FontAwesomeIcon className='hover:cursor-pointer' style={{ fontSize: "25px" }} icon={faEnvelope} />
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex items-center gap-1 mb-1">
                     <FontAwesomeIcon style={{ fontSize: "18px" }} icon={faLocationDot} /> Durgapur, West Bengal

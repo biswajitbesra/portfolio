@@ -4,6 +4,7 @@ import Project2 from '../../assets/2.png'
 import Project3 from '../../assets/3.png'
 import Project4 from '../../assets/4.png'
 import '../Projects/Projects.css'
+import { Link } from 'react-router-dom'
 
 function Projects() {
     return (
@@ -12,21 +13,21 @@ function Projects() {
             <div id='project' className='flex flex-wrap justify-center gap-4'>
                 <div className='relative my-css overflow-hidden' style={{ width: "20.25rem" }}>
                     <img className='h-full w-full' src={Project1} alt="" />
-                    <a className='p-3 bg-cus-yellow w-full rounded-t-xl flex justify-center' href='https://biswajitbesra.github.io/Home-Decors/' target='_blank'><div>Live Preview</div></a>
+                    <Link className='p-3 bg-cus-yellow w-full rounded-t-xl flex justify-center' to='https://biswajitbesra.github.io/Home-Decors/' target='_blank'><div>Live Preview</div></Link>
                 </div>
                 <div className='relative my-css overflow-hidden' style={{ width: "20.25rem" }}>
                     <img className='h-full w-full' src={Project2} alt="" />
-                    <a className='p-3 bg-cus-yellow w-full rounded-t-xl flex justify-center' href='https://biswajitbesra.github.io/abmstores/' target='_blank'><div>Live Preview</div></a>
+                    <Link className='p-3 bg-cus-yellow w-full rounded-t-xl flex justify-center' to='https://biswajitbesra.github.io/abmstores/' target='_blank'><div>Live Preview</div></Link>
                 </div>
                 <div className='relative my-css overflow-hidden' style={{ width: "20.25rem" }}>
                     <img className='h-full w-full' src={Project3} alt="" />
-                    <a className='p-3 bg-cus-yellow w-full rounded-t-xl flex justify-center' href='https://biswajitbesra.github.io/Tic-Tac-Toe/' target='_blank'><div>Live Preview</div></a>
+                    <Link className='p-3 bg-cus-yellow w-full rounded-t-xl flex justify-center' to='https://biswajitbesra.github.io/Tic-Tac-Toe/' target='_blank'><div>Live Preview</div></Link>
                 </div>
                 <div className='relative my-css overflow-hidden' style={{ width: "20.25rem" }}>
                     <img className='h-full w-full' src={Project4} alt="" />
-                    <a className='p-3 bg-cus-yellow w-full rounded-t-xl flex justify-center' href='https://biswajitbesra.github.io/resume-builder/' target='_blank'><div>Live Preview</div></a>
+                    <Link className='p-3 bg-cus-yellow w-full rounded-t-xl flex justify-center' to='https://biswajitbesra.github.io/resume-builder/' target='_blank'><div>Live Preview</div></Link>
                 </div>
-            </div>{/* change the navbar color into the demo link color */}
+            </div>
         </div>
     )
 }
