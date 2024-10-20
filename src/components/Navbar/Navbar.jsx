@@ -1,36 +1,18 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React, { useState } from 'react'
+import menu from '../../assets/Menu-icon.svg'
+import Navlist from './Navlist'
+import Navmenu from './Navmenu'
 
 function Navbar() {
+    const [hidden, setHidden] = useState("hidden")
     return (
-        <nav className='flex justify-center'>
-            <ul className='inline-flex backdrop-blur-md rounded-full shadow-lg box-border'>
-                <li>
-                    <NavLink to='/' className={({ isActive }) => `block px-5 py-1 rounded-full ${isActive ? 'bg-cus-yellow' : ''}`}>
-                        Home
-                    </NavLink> 
-                </li>
-                <li>
-                    <NavLink to='/about' className={({ isActive }) => `block px-5 py-1 rounded-full ${isActive ? 'bg-cus-yellow' : ''}`}>
-                        About
-                    </NavLink> 
-                </li>
-                <li>
-                    <NavLink to='/projects' className={({ isActive }) => `block px-5 py-1 rounded-full ${isActive ? 'bg-cus-yellow' : ''}`}>
-                        Projects
-                    </NavLink> 
-                </li>
-                <li>
-                    <NavLink to='/resume' className={({ isActive }) => `block px-5 py-1 rounded-full ${isActive ? 'bg-cus-yellow' : ''}`}>
-                        Resume
-                    </NavLink> 
-                </li>
-                <li>
-                    <NavLink to='/contact' className={({ isActive }) => `block px-5 py-1 rounded-full ${isActive ? 'bg-cus-yellow' : ''}`}>
-                        Contact
-                    </NavLink> 
-                </li>
-            </ul>
+        <nav className='flex flex-col mt-10 max-[996px]:w-11/12 max-[667px]:w-full max-[996px]:justify-end'>
+            <button className='flex justify-end' onClick={() => setHidden("block")}>
+                <img src={menu} alt="" className='hidden max-[996px]:block' />    
+            </button>
+            <Navmenu hidden={hidden} />
+
+            <Navlist backdropBlurMd="backdrop-blur-md" roundedFull="rounded-full" shadowLg="shadow-lg" />
         </nav>
     )
 }

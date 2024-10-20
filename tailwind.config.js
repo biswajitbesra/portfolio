@@ -10,10 +10,18 @@ export default {
             "cus-yellow": "#ffb100"
         },
         height:{
-            "cus-4.5": "4.5rem"
+            "cus-4.5": "4.5rem",
+            "cus-35": "35rem",
         },
         textColor:{
             "cus-yellow": "#ffb100"
+        },
+        width:{
+            "project-img-20.25": "20.25rem",
+            "project-img-18.25": "18.25rem",
+            "project-img-16.25": "16.25rem",
+            "project-img-15.25": "15.25rem",
+            "project-img-14.25": "14.25rem",
         }
       },
     },
