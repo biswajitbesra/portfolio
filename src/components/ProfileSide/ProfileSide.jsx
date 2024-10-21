@@ -25,10 +25,10 @@ function ProfileSide() {
                     <FontAwesomeIcon className='hover:cursor-pointer' style={{ fontSize: "25px" }} icon={faEnvelope} />
                 </Link>
             </div>
-            <div className="flex items-center gap-1 mb-1">
+            <div className="flex items-center gap-1 mb-1 max-[996px]:hidden">
                 <FontAwesomeIcon style={{ fontSize: "18px" }} icon={faLocationDot} /> Durgapur, West Bengal
             </div>
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-1 max-[996px]:hidden">
                 <FontAwesomeIcon style={{ fontSize: "15px" }} icon={faPhone} /> 9800070374
             </div>
         </div>

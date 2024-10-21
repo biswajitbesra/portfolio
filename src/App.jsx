@@ -5,7 +5,7 @@ import Navmenu from "./components/Navbar/Navmenu"
 function App() {
 
     return (
-        <div className="h-screen w-screen flex flex-col gap-4 items-center">
+        <div className="h-screen w-screen flex flex-col gap-4 items-center relative">
             <Navbar/>
             <MainContainer/>
         </div>
