@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 function Projects() {
     return (
-        <div className='h-full w-full overflow-y-scroll p-6'>
+        <div className='h-full w-full overflow-y-scroll px-6 pb-6 pt-14'>
             <h1 className='text-4xl font-bold mb-6'>Projects</h1>
             <div id='project' className='flex flex-wrap justify-center gap-4'>
                 <div className='relative my-css overflow-hidden w-project-img-20.25 max-[1473px]:w-project-img-18.25 max-[1345px]:w-project-img-16.25 max-[1217px]:w-project-img-15.25 max-[1200px]:w-project-img-18.25 max-[1101px]:w-project-img-16.25 max-[996px]:w-project-img-20.25 max-[803px]:w-project-img-18.25 max-[733px]:w-project-img-16.25 max-[608px]:w-project-img-14.25 max-[544px]:w-full'>

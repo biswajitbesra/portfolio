@@ -2,15 +2,15 @@ import React from 'react'
 
 function Resume() {
     return (
-        <div className='p-6'>
+        <div className='h-full w-full px-6 pb-6 pt-14 overflow-y-scroll'>
             <h1 className='text-4xl font-bold mb-6'>Resume</h1>
-            <div className='flex gap-16'>
+            <div className='flex gap-16 max-[667px]:flex-col max-[667px]:gap-8'>
                 <div>
                     <h3 className='text-2xl font-bold mb-2'>Education</h3>
                     <div className='flex gap-4'>
                         <div className='relative'>
                             <div
-                                className='bg-black h-cus-4.5 before:absolute before:content-[""] before:bg-cus-yellow before:border-2 before:border-black before:h-4 before:w-4 before:rounded-full before:top-1 before:-start-1.5'
+                                className='bg-black h-full max-[473px]:h-cus-6 max-[346px]:h-cus-7.5 before:absolute before:content-[""] before:bg-cus-yellow before:border-2 before:border-black before:h-4 before:w-4 before:rounded-full before:top-1 before:-start-1.5'
                                 style={{ width: "2px" }}>
                             </div>
                         </div>
@@ -23,7 +23,7 @@ function Resume() {
                     <div className="flex gap-4">
                         <div className='relative'>
                             <div
-                                className='bg-black h-cus-4.5 before:absolute before:content-[""] before:bg-cus-yellow before:border-2 before:border-black before:h-4 before:w-4 before:rounded-full before:top-1 before:-start-1.5'
+                                className='bg-black h-cus-4.5 max-[337px]:h-cus-6 before:absolute before:content-[""] before:bg-cus-yellow before:border-2 before:border-black before:h-4 before:w-4 before:rounded-full before:top-1 before:-start-1.5'
                                 style={{ width: "2px" }}>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ function Resume() {
                     <div className="flex gap-4">
                         <div className='relative'>
                             <div
-                                className='bg-black h-cus-4.5 before:absolute before:content-[""] before:bg-cus-yellow before:border-2 before:border-black before:h-4 before:w-4 before:rounded-full before:top-1 before:-start-1.5'
+                                className='bg-black h-cus-4.5 max-[408px]:h-cus-6 before:absolute before:content-[""] before:bg-cus-yellow before:border-2 before:border-black before:h-4 before:w-4 before:rounded-full before:top-1 before:-start-1.5'
                                 style={{ width: "2px" }}>
                             </div>
                         </div>

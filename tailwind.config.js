@@ -11,6 +11,8 @@ export default {
         },
         height:{
             "cus-4.5": "4.5rem",
+            "cus-6": "6rem",
+            "cus-7.5": "7.5rem",
             "cus-35": "35rem",
         },
         textColor:{
