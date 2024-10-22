@@ -17,16 +17,16 @@ function Contact() {
                         <span className='text-sm'>9800070374</span>
                     </div>
                     <div className='h-36 w-64 border border-slate-500 rounded-lg flex flex-col justify-center items-center gap-2 p-3'>
-                        <div>
+                        <Link target='_blank' to='mailto:biswajitbesra28@gmail.com'>
                             <FontAwesomeIcon style={{ fontSize: "35px" }} icon={faEnvelope} />
-                        </div>
+                        </Link>
                         <Link target='_blank' className='text-sm' to='mailto:biswajitbesra28@gmail.com'>biswajitbesra28@gmail.com</Link>
                     </div>
                     <div className='h-36 w-64 border border-slate-500 rounded-lg flex flex-col justify-center items-center gap-2 p-3'>
-                        <div>
+                        <Link target='_blank' to='https://www.linkedin.com/in/biswajit-besra-0b471a315/'>
                             <FontAwesomeIcon style={{ fontSize: "35px" }} icon={faLinkedin} />
-                        </div>
-                        <Link target='_blank' className='text-sm break-words' style={{ wordBreak: 'break-word' }} to='https://www.linkedin.com/in/biswajit-besra-0b471a315/'>https://www.linkedin.com/in/biswajit-besra-0b471a315/</Link>
+                        </Link>
+                        <Link target='_blank' className='text-sm break-words' to='https://www.linkedin.com/in/biswajit-besra-0b471a315/'>Biswajit Besra</Link>
                     </div>
                 </div>
             </div>
