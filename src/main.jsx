@@ -20,7 +20,7 @@ const router = createBrowserRouter(
         </Route>
     ),
     {
-        basename: "/personal-portfolio/"
+        basename: "/portfolio-website/"
     }
 )
 
