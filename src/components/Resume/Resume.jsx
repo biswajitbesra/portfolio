@@ -6,7 +6,7 @@ function Resume() {
             <h1 className='text-4xl font-bold mb-6'>Resume</h1>
             <div className='flex gap-16 max-[667px]:flex-col max-[667px]:gap-8'>
                 <div>
-                    <h3 className='text-2xl font-bold mb-2'>Education</h3>
+                    <h3 className='text-xl font-bold mb-2'>Education</h3>
                     <div className='flex gap-4'>
                         <div className='relative'>
                             <div
@@ -16,8 +16,8 @@ function Resume() {
                         </div>
                         <div>
                             <h5 className='font-bold'>Bachelor fo Computer Applications</h5>
-                            <h6>ABS Academy of Science, Technology and Management</h6>
-                            <p>2024</p>
+                            <h6 className='text-base'>ABS Academy of Science, Technology and Management</h6>
+                            <p className='text-base'>2024</p>
                         </div>
                     </div>
                     <div className="flex gap-4">
@@ -29,8 +29,8 @@ function Resume() {
                         </div>
                         <div>
                             <h5 className='font-bold'>Higher Secondary</h5>
-                            <h6>Durgapur Projects Boys High School</h6>
-                            <p>2021</p>
+                            <h6 className='text-base'>Durgapur Projects Boys High School</h6>
+                            <p className='text-base'>2021</p>
                         </div>
                     </div>
                     <div className="flex gap-4">
@@ -42,14 +42,14 @@ function Resume() {
                         </div>
                         <div>
                             <h5 className='font-bold'>Secondary</h5>
-                            <h6>Durgapur Projects Township Boys High School</h6>
-                            <p>2019</p>
+                            <h6 className='text-base'>Durgapur Projects Township Boys High School</h6>
+                            <p className='text-base'>2019</p>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <h3 className='text-2xl font-bold mb-2'>Skills</h3>
-                    <ul>
+                    <h3 className='text-xl font-bold mb-2'>Skills</h3>
+                    <ul className='*:text-base'>
                         <li>HTML</li>
                         <li>CSS</li>
                         <li>JavaScript</li>
@@ -60,8 +60,8 @@ function Resume() {
                 </div>
             </div>
             <div className='mb-2'>
-                <h3 className='text-2xl font-bold mt-8'>Experience</h3>
-                <p>Fresher</p>
+                <h3 className='text-xl font-bold mt-8'>Experience</h3>
+                <p className='text-base'>Fresher</p>
             </div>
 
         </div>
