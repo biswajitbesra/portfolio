@@ -61,7 +61,11 @@ function Resume() {
             </div>
             <div className='mb-2'>
                 <h3 className='text-xl font-bold mt-8'>Experience</h3>
-                <p className='text-base'>Fresher</p>
+                <div>
+                    <h5 className='font-bold'>Front-end Development (Intern)</h5>
+                    <h6 className='text-base'>Swadesh Softwares Pvt. Ltd.</h6>
+                    <p className='text-base'>06.09.2023 - 16.10.2023</p>
+                </div>
             </div>
 
         </div>
