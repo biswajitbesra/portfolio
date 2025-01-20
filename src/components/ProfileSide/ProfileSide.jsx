@@ -15,7 +15,7 @@ function ProfileSide() {
                 Biswajit Besra
             </h1>
             <div className='flex gap-3 mb-3'>
-                <Link target='_blank' to="https://www.linkedin.com/in/biswajit-besra-0b471a315/">
+                <Link target='_blank' to="https://www.linkedin.com/in/biswajit-besra-9a97a0347/">
                     <FontAwesomeIcon className='hover:cursor-pointer' style={{ fontSize: "25px" }} icon={faLinkedin} />
                 </Link>
                 <Link target='_blank' to="https://github.com/biswajitbesra">

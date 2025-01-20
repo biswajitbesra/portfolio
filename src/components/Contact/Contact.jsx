@@ -23,10 +23,10 @@ function Contact() {
                         <Link target='_blank' className='text-sm' to='mailto:biswajitbesra28@gmail.com'>biswajitbesra28@gmail.com</Link>
                     </div>
                     <div className='h-36 w-64 border border-slate-500 rounded-lg flex flex-col justify-center items-center gap-2 p-3'>
-                        <Link target='_blank' to='https://www.linkedin.com/in/biswajit-besra-0b471a315/'>
+                        <Link target='_blank' to='https://www.linkedin.com/in/biswajit-besra-9a97a0347/'>
                             <FontAwesomeIcon style={{ fontSize: "35px" }} icon={faLinkedin} />
                         </Link>
-                        <Link target='_blank' className='text-sm break-words' to='https://www.linkedin.com/in/biswajit-besra-0b471a315/'>Biswajit Besra</Link>
+                        <Link target='_blank' className='text-sm break-words' to='https://www.linkedin.com/in/biswajit-besra-9a97a0347/'>Biswajit Besra</Link>
                     </div>
                 </div>
             </div>
