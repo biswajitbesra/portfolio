@@ -15,7 +15,7 @@ function Resume() {
                             </div>
                         </div>
                         <div>
-                            <h5 className='font-bold'>Bachelor fo Computer Applications</h5>
+                            <h5 className='font-bold'>Bachelor of Computer Applications</h5>
                             <h6 className='text-base'>ABS Academy of Science, Technology and Management</h6>
                             <p className='text-base'>2024</p>
                         </div>
@@ -64,7 +64,7 @@ function Resume() {
                 <div>
                     <h5 className='font-bold'>Front-end Development (Intern)</h5>
                     <h6 className='text-base'>Swadesh Softwares Pvt. Ltd.</h6>
-                    <p className='text-base'>06.09.2023 - 16.10.2023</p>
+                    <p className='text-base'>Sept 2023 - Oct 2023</p>
                 </div>
             </div>
 
